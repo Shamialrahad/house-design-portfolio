@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rinterio</title>
+    <!-- Google font cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn  -->
+    <script
+      src="https://kit.fontawesome.com/b10dcb0f24.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Tailwind css cdn  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- Main content  -->
+    <main>
+      <section
+        class="max-w-screen-xl mx-auto px-16 lg:px-28 bg-gradient-to-b from-gray-200 to-gray-0"
+      >
+        <header class="pt-10 mb-20">
+          <!-- Navbar part -->
+          <nav class="flex justify-between items-center py-5">
+            <!-- Logo  -->
+            <div class="flex items-center gap-2">
+              <i
+                class="fa-solid fa-arrow-right -rotate-45 w-7 h-7 inline-flex bg-lime-400 rounded-full justify-center items-center"
+              ></i>
+              <h2 class="text-2xl font-bold">Rinterio</h2>
+            </div>
+            <!-- Nav Menu  -->
+            <div class="mx-5">
+              <ul class="flex gap-5">
+                <li><a class="font-bold" href="#">Home</a></li>
+                <li><a class="text-gray-500" href="#">Services</a></li>
+                <li><a class="text-gray-500" href="#">Portfolio</a></li>
+                <li><a class="text-gray-500" href="#">Blogs</a></li>
+                <li><a class="text-gray-500" href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div>
+              <i
+                class="fa-solid fa-magnifying-glass w-7 h-7 inline-flex bg-white text-slate-500 rounded-full justify-center items-center"
+              ></i>
+              <i
+                class="fa-solid fa-cart-shopping w-7 h-7 inline-flex bg-white rounded-full text-slate-700 justify-center items-center"
+              ></i>
+            </div>
+            <div>
+              <button
+                class="bg-lime-400 px-3 py-2 font-bold text-xl rounded-full"
+              >
+                Book Consult
+                <i
+                  class="fa-solid fa-arrow-right -rotate-45 w-7 h-7 inline-flex bg-black text-white rounded-full justify-center items-center"
+                ></i>
+              </button>
+            </div>
+          </nav>
+          <div>
+            <img class="mx-auto" src="./assets/banner.png" alt="" />
+          </div>
+          <div class="pt-10 text-center">
+            <h1 class="text-6xl font-black mb-10">
+              A barn house of this design has a striking appearance
+            </h1>
+            <p>
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents, and large windows that flood the space with natural
+              light.
+            </p>
+            <div class="my-10 mx-auto">
+              <button
+                class="bg-lime-100 px-3 py-2 font-bold border-solid border-2 border-lime-400 text-xl rounded-full"
+              >
+                View Details
+                <i
+                  class="fa-solid fa-arrow-right -rotate-45 w-7 h-7 inline-flex bg-lime-400 rounded-full justify-center items-center"
+                ></i>
+              </button>
+            </div>
+          </div>
+        </header>
+      </section>
+    </main>
+  </body>
+</html>
