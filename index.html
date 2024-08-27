@@ -47,7 +47,7 @@
               <h2 class="text-2xl font-bold">Rinterio</h2>
             </div>
             <!-- Nav Menu  -->
-            <div class="mx-5">
+            <div class="mx-5 hidden md:block">
               <ul class="flex gap-5">
                 <li><a class="font-bold" href="#">Home</a></li>
                 <li><a class="text-gray-500" href="#">Services</a></li>
@@ -56,23 +56,30 @@
                 <li><a class="text-gray-500" href="#">Contact Us</a></li>
               </ul>
             </div>
-            <div>
-              <i
-                class="fa-solid fa-magnifying-glass w-7 h-7 inline-flex bg-white text-slate-500 rounded-full justify-center items-center"
-              ></i>
-              <i
-                class="fa-solid fa-cart-shopping w-7 h-7 inline-flex bg-white rounded-full text-slate-700 justify-center items-center"
-              ></i>
-            </div>
-            <div>
-              <button
-                class="bg-lime-400 px-3 py-2 font-bold text-xl rounded-full"
-              >
-                Book Consult
+            <div class="flex items-center gap-5">
+              <div class="gap-5">
                 <i
-                  class="fa-solid fa-arrow-right -rotate-45 w-7 h-7 inline-flex bg-black text-white rounded-full justify-center items-center"
+                  class="fa-solid fa-magnifying-glass w-7 h-7 inline-flex bg-white text-slate-500 rounded-full justify-center items-center"
                 ></i>
-              </button>
+                <i
+                  class="fa-solid fa-cart-shopping w-7 h-7 inline-flex bg-white rounded-full text-slate-700 justify-center items-center"
+                ></i>
+              </div>
+              <div>
+                <button
+                  class="bg-lime-400 px-3 py-2 font-bold text-xl rounded-full"
+                >
+                  Book Consult
+                  <i
+                    class="fa-solid fa-arrow-right -rotate-45 w-7 h-7 inline-flex bg-black text-white rounded-full justify-center items-center"
+                  ></i>
+                </button>
+              </div>
+              <div>
+                <i
+                  class="fa-solid fa-bars block md:hidden w-7 h-7 inline-flex bg-white text-slate-500 rounded-full justify-center items-center"
+                ></i>
+              </div>
             </div>
           </nav>
           <div>
