@@ -34,7 +34,7 @@
     <!-- Main content  -->
     <main>
       <section
-        class="max-w-screen-xl mx-auto px-16 lg:px-28 bg-gradient-to-b from-gray-200 to-gray-0"
+        class="mx-auto px-16 lg:px-28 bg-gradient-to-b from-gray-200 to-gray-0"
       >
         <header class="pt-10 mb-20">
           <!-- Navbar part -->
@@ -102,7 +102,7 @@
         </header>
       </section>
       <!-- About Us section  -->
-      <section class="max-w-screen-xl mx-auto px-10 lg:px-20 bg-gray-200 py-10">
+      <section class="mx-auto px-10 lg:px-20 bg-gray-200 py-10">
         <div>
           <img src="assets/Vector.png" alt="" />
         </div>
@@ -111,10 +111,10 @@
         >
           <div>
             <!-- Text content  -->
-            <button class="bg-white px-4 py-1 mb-5 rounded-full">
+            <button class="bg-white px-4 py-1 rounded-full">
               <i class="fa-solid fa-arrow-right"></i> About Us
             </button>
-            <h1 class="text-4xl font-bold mb-5">
+            <h1 class="text-4xl font-bold">
               We design thoughtful, liveable spaces
             </h1>
             <p class="mb-5">
@@ -122,7 +122,7 @@
               Possimus, iste debitis! Iusto, itaque. Quibusdam veniam vel
               debitis ut consequatur quae.
             </p>
-            <div class="flex items-center bg-white rounded-xl p-5 my-5 gap-5">
+            <div class="flex items-center bg-white rounded-xl p-5 mb-5 gap-5">
               <div><img src="./assets/commercial.png" alt="" /></div>
               <div class="">
                 <h3 class="font-bold">Commercial</h3>
@@ -149,7 +149,7 @@
         </div>
       </section>
       <!-- Happy client section  -->
-      <section class="max-w-screen-xl mx-auto px-10 lg:px-20 bg-gray-200 py-10">
+      <section class="mx-auto px-10 lg:px-20 bg-gray-200 py-10">
         <div class="flex bg-white justify-between text-center p-10 rounded-lg">
           <div>
             <h3>Icon</h3>
@@ -175,7 +175,7 @@
       </section>
 
       <!-- Work Process section  -->
-      <section class="max-w-screen-xl mx-auto px-10 lg:px-20 bg-gray-200 py-10">
+      <section class="mx-auto px-10 lg:px-20 bg-gray-200 py-10">
         <div class="mx-10 mx-auto text-center">
           <button class="bg-white px-4 py-1 mb-5 rounded-full">
             <i class="fa-solid fa-arrow-right"></i> How we Works
@@ -301,34 +301,91 @@
 
       <!-- Next Project Section  -->
       <section
-        class="max-w-screen-xl mx-auto px-10 lg:px-20 py-10 bg-[url('/assets/bg.jpg')]"
+        class="mx-auto px-10 lg:px-20 py-10 bg-[url('/assets/bg.jpg')] bg-cover"
       >
         <div class="mx-10 mx-auto text-center">
           <button class="bg-green-100 font-bold px-4 py-2 mb-5 rounded-full">
-            <i class="fa-solid fa-arrow-right"></i> Explore Our Latest works
+            <i class="fa-solid fa-arrow-right"></i> Let's Connect
           </button>
         </div>
-        <div class="text-center mx-20 py-10">
-          <h1 class="text-5xl font-bold mb-5">Our Latest Portfolio</h1>
+        <div class="text-center mx-20 pb-10">
+          <h1 class="text-5xl font-bold mb-5">Let's Discuss Next Project</h1>
           <p class="text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
             praesentium sit iste vero delectus nesciunt quod velit possimus eos
             molestiae.
           </p>
         </div>
-        <div>
+        <div class="md:px-20">
           <label class="block flex gap-5">
-            <input type="text" class="mt-1 px-3 py-5 bg-white border shadow-sm
-            border-slate-300 placeholder-slate-400 focus:outline-none
+            <input type="text" class="mt-5 px-3 py-5 bg-white border shadow-sm
+            border-slate-300 placeholder-slate-500 focus:outline-none
             focus:border-sky-500 focus:ring-sky-500 block w-full rounded-full
-            sm:text-sm focus:ring-1" placeholder="you@example.com" "> <input
-            type="text" class="mt-1 px-3 py-5 bg-white border shadow-sm
-            border-slate-300 placeholder-slate-400 focus:outline-none
+            sm:text-sm focus:ring-1" placeholder="First Name*" "> <input
+            type="text" class="mt-5 px-3 py-5 bg-white border shadow-sm
+            border-slate-300 placeholder-slate-500 focus:outline-none
             focus:border-sky-500 focus:ring-sky-500 block w-full rounded-full
-            sm:text-sm focus:ring-1" placeholder="you@example.com" ">
+            sm:text-sm focus:ring-1" placeholder="Last Name*" ">
           </label>
+          <label class="block flex gap-5">
+            <input type="number" class="mt-5 px-3 py-5 bg-white border shadow-sm
+            border-slate-300 placeholder-slate-500 focus:outline-none
+            focus:border-sky-500 focus:ring-sky-500 block w-full rounded-full
+            sm:text-sm focus:ring-1" placeholder="Phone Number*" "> <input
+            type="email" class="mt-5 px-3 py-5 bg-white border shadow-sm
+            border-slate-300 placeholder-slate-500 focus:outline-none
+            focus:border-sky-500 focus:ring-sky-500 block w-full rounded-full
+            sm:text-sm focus:ring-1" placeholder="email@example" ">
+          </label>
+          <textarea
+            class="px-3 py-5 resize-none my-10 text-2xl rounded-lg w-full h-64 shadow-sm border-slate-300 placeholder-slate-500 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block sm:text-sm focus:ring-1"
+            placeholder="Write your message here"
+          ></textarea>
+          <button
+            class="bg-lime-400 px-3 py-5 font-bold text-xl w-full rounded-full"
+          >
+            Send Mail
+            <i
+              class="fa-solid fa-arrow-right -rotate-45 w-7 h-7 inline-flex bg-black text-white rounded-full justify-center items-center"
+            ></i>
+          </button>
         </div>
       </section>
     </main>
+    <!-- Footer section  -->
+    <footer class="mx-auto px-10 lg:px-20 bg-black py-10">
+      <div class="mx-10 mx-auto text-center">
+        <div class="flex items-center justify-center gap-2">
+          <i
+            class="fa-solid fa-arrow-right -rotate-45 w-9 h-9 inline-flex bg-lime-400 rounded-full justify-center items-center"
+          ></i>
+          <h2 class="text-3xl font-bold text-white">Rinterio</h2>
+        </div>
+      </div>
+      <div class="text-center mx-20 my-10">
+        <p class="text-lg text-slate-500">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          praesentium sit iste vero delectus nesciunt quod velit possimus eos
+          molestiae.
+        </p>
+        <div class="mx-5 my-10">
+          <ul class="flex gap-5 justify-between px-20">
+            <li><a class="text-white" href="#">Home</a></li>
+            <li><a class="text-white" href="#">Services</a></li>
+            <li><a class="text-white" href="#">Portfolio</a></li>
+            <li><a class="text-white" href="#">Blogs</a></li>
+            <li><a class="text-white" href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="my-10 mx-auto">
+          <button class="bg-lime-200 px-3 py-2 font-bold text-xl rounded-full">
+            View Consult
+            <i
+              class="fa-solid fa-arrow-right -rotate-45 w-7 h-7 inline-flex bg-black text-white rounded-full justify-center items-center"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
